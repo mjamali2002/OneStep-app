@@ -3,6 +3,12 @@
         android:label="One Step"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        
+        <!-- این بخش برای حل خطای v1 embedding ضروری است -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
