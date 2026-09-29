@@ -1,0 +1,12 @@
+name: onestep
+description: A clean Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
